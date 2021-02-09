@@ -1,57 +1,53 @@
-import React, { Component } from 'react';
-import Widecard from '../layouts/Widecard';
+import React from "react";
+import ReactDOM from "react-dom";
 
+import {
+  VerticalTimeline,
+  VerticalTimelineElement
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
-class Education extends Component {
-  render() {
-    return (
-      <div className="condiv">
-        <h1 className='subtopic'>My Education</h1>
-        <Widecard
-          title='Web development/Programming Coding Course'
-          where='Lifechoices Academy'
-          from='24 February 2020'
-          to='30 August 2020'
-        />
-        <Widecard
-          title='Broad Based Digital Skills Candidate'
-          where='CapaCiti Tech Career Accelerator'
-          from='November 2019'
-          to='January 2020'
-        />
-        <Widecard
-          title='Believe Program and Udemy Online Courses'
-          where='Naspers Labs (Delft Mall)'
-          from='August 2019'
-          to='October 2019'
-        />
+import events from "../../event.json";
 
-        <Widecard
-          title='HomeBase Care Level 1,2 & 3'
-          where='South Africa Red Cross Society'
-          from='20 June 2017'
-          to='4 August 2017'
-        />
-        <Widecard
-          title='Grade 9 - 12'
-          where='Hindle high School'
-          from='2009'
-          to='2012'
-        />
-   
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+//import "./styles.css";
 
-        
-
-        
-      </div>
-    );
-  }
+function Education() {
+  return (
+    <div
+      className="App"
+      style={{ background: "coral", fontFamily: "Trebuchet Ms" }}
+    >
+      <h1 className='condiv'>Education</h1>
+      <VerticalTimeline>
+        {events.map(event => (
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={event.date}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              dangerouslySetInnerHTML={{ __html: event.title }}
+            />
+             <h3
+              className="vertical-timeline-element-title"
+              dangerouslySetInnerHTML={{ __html: event.where }}
+            />
+             <h3
+              className="vertical-timeline-element-title"
+              dangerouslySetInnerHTML={{ __html: event.from }}
+            />
+           
+          </VerticalTimelineElement>
+        ))}
+      </VerticalTimeline>
+    </div>
+  );
 }
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Education />, rootElement);
+
 
 export default Education;
 

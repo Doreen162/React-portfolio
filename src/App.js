@@ -4,10 +4,11 @@ import Header from './components/pages/Header'
 import About from './components/pages/About'
 import Works from './components/pages/Works'
 import Education from './components/pages/Education'
-import Experience from './components/pages/Experience'
+
 import Contact from './components/pages/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 
 function App() {
@@ -26,8 +27,8 @@ function App() {
       <Particles />
       <About />
       <Education />
-      <Experience/>
       <Works />
+    
       <Contact />
     </div>
   );
