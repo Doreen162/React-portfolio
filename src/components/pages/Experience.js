@@ -4,7 +4,7 @@ import Widecard from '../layouts/Widecard2';
 class Experience extends Component {
   render() {
     return (
-      <div className="col-12 d-none d-md-block offset-md-1 col-md-4" id="not">
+      <div className="condiv">
         <h1 className='subtopic'>Work Experience</h1>
         <Widecard
           title='Full Stack Developement Intern'
