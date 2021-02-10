@@ -4,15 +4,13 @@ import Header from './components/pages/Header'
 import About from './components/pages/About'
 import Works from './components/pages/Works'
 import Education from './components/pages/Education'
-
+import Experience from './components/pages/Experience'
+import Testimonials from './components/pages/Testimonial'
 import Contact from './components/pages/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-
-
 function App() {
-
   useEffect(() => {
     AOS.init({
       duration: 750,
@@ -27,8 +25,9 @@ function App() {
       <Particles />
       <About />
       <Education />
+      <Experience />
       <Works />
-    
+      <Testimonials />
       <Contact />
     </div>
   );

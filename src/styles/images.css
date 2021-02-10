@@ -29,7 +29,7 @@
     cursor: none;
 }
 /* Miscelaneous Activities photo */
-#misc1{
+/*#misc1{
     background-image: url('https://lifechoicesacademy.com/wp-content/uploads/2020/01/Life-Choices-Academy-About-Us-Team-Member-Thapelo.jpg');
     cursor: none;
 }
@@ -52,7 +52,7 @@
 #misc6{
     background-image: url('https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
     cursor: none;
-}
+}*/
 /* Contact form parallax effect image */
 .parallax{
     background-image: url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');

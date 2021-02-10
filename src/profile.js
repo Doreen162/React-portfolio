@@ -150,48 +150,7 @@ const experience = [
     },
     
 ]
-// Edit your Miscellaneous Activities, its name and the url. 
-// You can omit freely anything if you dont have it
-// To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Testimonials"
-const miscellaneous = [
-    {
-        // Add image in './styles/images.css' in #misc1
-        id: "misc1",
-        name: "Doreen Ligman is a Life Choices Academy students for 2020. One thing you should know  about Doreen is having the ability to learn a new programming and good interpersonal skills",
-       
-    },
-    {
-        // Add image in './styles/images.css' in #misc2        
-        id: "misc2",
-        name: "Doreen Ligman is a hard working , observant and dedicated individual. I believe that she would be a great asset to any work place.",
-       
-    },
-    {
-        // Add image in './styles/images.css' in #misc3
-        id: "misc3",
-        name: "Doreen Ligman is motivate student, who is introvent during her time on the programme and committed to working mostly participating and interacting concerning work related",
-       
-    },
-    {
-        // Add image in './styles/images.css' in #misc1
-        id: "misc4",
-        name: "Doreen Ligman is a very dedicated individual she has pay great attention to details during this programme.",
-       
-    },
-    {
-        // Add image in './styles/images.css' in #misc2        
-        id: "misc5",
-        name: "Doreen Ligman is very ambitious individual who is always dedicated herself to do best in tasks, projects. She also loves interacting and pushing herself to limit when it comes to her work.I believe she be very great asset in working environment",
-       
-    },
-    {
-        // Add image in './styles/images.css' in #misc3
-        id: "misc6",
-        name: "Doreen Ligman always dedicated herself especially to work and make sure that she always stick to what she must do.",
-       
-    },
-]
+
 // Contact form text, and Jotforms link
 // To get your own jotform link, go to https://www.jotform.com/
 // If you hacve the link already, paste it in the contactUrl below
@@ -209,4 +168,4 @@ const social = {
     codepen: 'https://codepen.io/Doreen17',
 }
 // Dont change anything here
-export { header, background, about, skillsBar, projects , education, experience , miscellaneous, contact, social, section2title, section3Title, section33Title, section34Title, section4Title, section5Title }
+export { header, background, about, skillsBar, projects , education, experience , contact, social, section2title, section3Title, section33Title, section34Title, section5Title }

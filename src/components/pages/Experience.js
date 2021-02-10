@@ -7,11 +7,11 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import events from "../../event.json";
+import events from "../../events.json";
 
 //import "./styles.css";
 
-function Education() {
+function Experience() {
   return (
     <div
       className="App"
@@ -48,8 +48,7 @@ function Education() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Education />, rootElement);
+ReactDOM.render(<Experience />, rootElement);
 
 
-export default Education;
-
+export default Experience;

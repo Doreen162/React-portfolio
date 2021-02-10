@@ -1,7 +1,12 @@
-/*import React, { Component } from "react";
+import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import profile from '../pages/Profile.png'
+import Thapelo from '../img/Thapelo.jpg'
+import Godwin from '../img/Godwin.jpeg'
+import Jason from '../img/Jason.jpeg'
+import brittney from '../img/brittney.jpeg'
+import cameron from '../img/cameron.jpeg'
+import Chad from '../img/Chad.png'
 import '../../styles/carousel.css'
 
 export default class Testimonials extends Component {
@@ -16,41 +21,74 @@ export default class Testimonials extends Component {
         interval={6100}
       >
         <div>
-          <img src={profile} className='images'/>
+          <img src={Thapelo} className='images'/>
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h3>Thapelo Tsotetsi</h3>
+            <h4>Group Lecturer</h4>
             <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+            Doreen Ligman is a Life Choices Academy students for 2020. One thing you should know  about Doreen is having the ability to learn a new programming and good interpersonal skills
             </p>
           </div>
         </div>
 
         <div>
-          <img src="https://camo.githubusercontent.com/2ce9b7b340abef235ceb89953dbe8080a426f6a989460f814200be766a7c9f93/68747470733a2f2f692e696d6775722e636f6d2f537147395239332e6a7067" />
+        <img src={Godwin} className='images'/>
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
+            <h3>Godwin Dzvapatsva</h3>
+            <h4>Head of Curriculum and Learning</h4>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+            Doreen Ligman is a hard working , observant and dedicated individual. Doreen has encouraged myself and many others to keep on going no matter the case even though she herself was struggling. I believe that she would be a great asset to any work place.
             </p>
           </div>
         </div>
 
         <div>
-          <img src="/images/theo.png" />
+        <img src={Chad} className='images'/>
           <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
+            <h3>Chad Bosch</h3>
+            <h4>Team Leader</h4>
             <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
+            Doreen Ligman is motivate student, who is introvent during her time on the programme and committed to working mostly participating and interacting concerning work related.
             </p>
           </div>
         </div>
+
+        <div>
+        <img src={Jason} className='images'/>
+          <div className="myCarousel">
+            <h3>Jason Wandrag</h3>
+            <h4>Curriculum Designer</h4>
+            <p>
+            Doreen Ligman is a very dedicated individual she has pay great attention to details during this programme.
+            </p>
+          </div>
+        </div>
+
+        <div>
+        <img src={brittney} className='images'/>
+          <div className="myCarousel">
+            <h3>Brittney Bowers</h3>
+            <h4>Colleague</h4>
+            <p>
+              Doreen always dedicated herself to doing her work and make sure its on time.
+            </p>
+          </div>
+        </div>
+
+        <div>
+        <img src={cameron} className='images'/>
+          <div className="myCarousel">
+            <h3>Cameron Luyt</h3>
+            <h4>Colleague</h4>
+            <p>
+            Doreen Ligman is very ambitious individual who is always dedicated herself to do best in tasks, projects. She also loves interacting and pushing herself to limit when it comes to her work.I believe she be very great asset in working environment.
+            </p>
+          </div>
+        </div>
+
       </Carousel>
+
+     
     );
   }
-}*/
+}
