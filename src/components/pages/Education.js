@@ -17,7 +17,7 @@ function Education() {
       className="App"
       style={{ background: "#e96224", fontFamily: "Trebuchet Ms" }}
     >
-      <h1 className='condiv'></h1>
+      <h1 className='condiv'> Education </h1>
   
       <VerticalTimeline>
         {events.map(event => (

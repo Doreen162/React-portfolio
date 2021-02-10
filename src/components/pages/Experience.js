@@ -17,7 +17,7 @@ function Experience() {
       className="App"
       style={{ background: "#e96224", fontFamily: "Trebuchet Ms" }}
     >
-      <h1 className='condiv'></h1>
+      <h1 className='condiv'>Work Experience</h1>
   
       <VerticalTimeline>
         {events.map(event => (
