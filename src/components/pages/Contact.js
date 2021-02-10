@@ -29,7 +29,7 @@ const Contact = () => {
                 <center>
                 <div className="inline-block">
                     {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
-                    {social.codepen && <a title="Visit Codepen profile" rel="noopener noreferrer" target="_blank" href={social.instagram}><i className="fab fa-instagram"></i></a>}
+                    {social.codepen && <a title="Visit Codepen profile" rel="noopener noreferrer" target="_blank" href={social.codepen}><i className="fab fa-codepen"></i></a>}
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
                    
                 </div>
