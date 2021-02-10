@@ -156,7 +156,7 @@ const experience = [
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch"
 const contact = {
-    pitch: "Tell us more about your enquiry.",
+    pitch: "Tell me more about your enquiry.",
     copyright: "Doreen Ligman",
     contactUrl: 'doreenligman17@gmail.com'
 }
