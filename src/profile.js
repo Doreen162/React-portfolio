@@ -47,21 +47,21 @@ const projects = [
         id: "project1",
         name: "Github finder ",
         skills: ["React"],
-        url: "https://github.com/Doreen162/Github-finder-project"
+        url: "https://site177.netlify.app"
     },
     {
         // Add image in './styles/images.css' in #project2
         id: "project2",
         name: "Contact Keeper",
         skills: ["React"],
-        url: "https://github.com/Doreen162/contact-keeper"
+        url: "https://aqueous-depths-36684.herokuapp.com/login"
     },
     {
         // Add image in './styles/images.css' in #project3
         id: "project3",
         name: "I.T logger",
         skills: ["React"],
-        url: "https://github.com/Doreen162/it-logger"
+        url: "https://it--logger.herokuapp.com/"
     },
     {
         // Add image in './styles/images.css' in #project4
@@ -75,14 +75,14 @@ const projects = [
         id: "project5",
         name: "Final react project",
         skills: ["React"],
-        url: "https://github.com/Doreen162/Beauty-salon"
+        url: "https://doreen-beauty-salon.netlify.app"
     },
     {
         // Add image in './styles/images.css' in #project6
         id: "project6",
-        name: "Portfolio in Vuejs",
-        skills: ["Vuejs"],
-        url: "https://github.com/Doreen162/Portfolio"
+        name: "King James Challenge",
+        skills: ["Html, CSS & Javascript"],
+        url: "https://challenge177.netlify.app"
     },
 ]
 
