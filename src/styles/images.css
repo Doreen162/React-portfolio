@@ -1,7 +1,7 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://za.linkedin.com/in/doreen-rowena-ligman-20a55919b');
+    background-image: url('../components/img/profile-pic.jpg');
 }
 /* Projects Photo */
 #project1{
