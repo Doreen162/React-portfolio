@@ -10,7 +10,7 @@ const background = {
 // To update your image, go to './styles/images.css'
 const section2title = "About Me"
 const about = {
-    paragraph: "I'm South African female citizen. I'm currently 26 years old and the languages I speak is English and Afrikaans. My abilities are good communication skills, working well in a team, self-movitation, good time management, critical thinking, determination and persistance. My  interest are watching news because I love knowing what is going on  around the world, watching movies and doing outdoor/adventures."
+    paragraph: "I'm a South African female citizen. I'm currently 26 years old and I speak English and Afrikaans. My competences include good communication skills, working well in a team, self-motivation, good time management, critical thinking, determination and persistence. I love to keep up with current affairs around the world by watching the news. To relax, I enjoy watching movies and doing outdoor activities/adventures."
 }
 
 const skillsBar = [
