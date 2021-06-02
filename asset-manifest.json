@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.084505b3.chunk.css",
+    "main.js": "/static/js/main.9a92d955.chunk.js",
+    "main.js.map": "/static/js/main.9a92d955.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/css/2.9bde01be.chunk.css": "/static/css/2.9bde01be.chunk.css",
+    "static/js/2.4923f59e.chunk.js": "/static/js/2.4923f59e.chunk.js",
+    "static/js/2.4923f59e.chunk.js.map": "/static/js/2.4923f59e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.9bde01be.chunk.css.map": "/static/css/2.9bde01be.chunk.css.map",
+    "static/css/main.084505b3.chunk.css.map": "/static/css/main.084505b3.chunk.css.map",
+    "static/js/2.4923f59e.chunk.js.LICENSE.txt": "/static/js/2.4923f59e.chunk.js.LICENSE.txt",
+    "static/media/Chad.2df80593.png": "/static/media/Chad.2df80593.png",
+    "static/media/Thapelo.5b76ec09.jpg": "/static/media/Thapelo.5b76ec09.jpg",
+    "static/media/images.css": "/static/media/profile-pic.5b6ff573.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/css/2.9bde01be.chunk.css",
+    "static/js/2.4923f59e.chunk.js",
+    "static/css/main.084505b3.chunk.css",
+    "static/js/main.9a92d955.chunk.js"
+  ]
+}
