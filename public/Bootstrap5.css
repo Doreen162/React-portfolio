@@ -36,6 +36,7 @@
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
+  cursor: pointer !important;
 }
 *,
 ::after,
@@ -8913,4 +8914,5 @@ button.close {
     display: inline-flex !important;
   }
 }
+
 /*# sourceMappingURL=bootstrap.min.css.map */

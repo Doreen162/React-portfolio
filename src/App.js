@@ -25,6 +25,16 @@ function App() {
       <Particles />
       <About />
       <Education />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Experience />
       <Works />
       <Testimonials />

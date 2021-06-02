@@ -10,33 +10,39 @@ const background = {
 // To update your image, go to './styles/images.css'
 const section2title = "About Me"
 const about = {
-    paragraph: "I'm a South African female citizen. I'm currently 26 years old and I speak English and Afrikaans. My competences include good communication skills, working well in a team, self-motivation, good time management, critical thinking, determination and persistence. I love to keep up with current affairs around the world by watching the news. To relax, I enjoy watching movies and doing outdoor activities/adventures."
+    paragraph: "I'm a South African female citizen. I'm currently 27 years old and I speak English and Afrikaans. My competences include good communication skills, working well in a team, self-motivation, good time management, critical thinking, determination and persistence. I love to keep up with current affairs around the world by watching the news. To relax, I enjoy watching movies and doing outdoor activities/adventures."
 }
-
 const skillsBar = [
     {
-        name: "HTML",
-        value: 70
+        name: "HTML5",
+        faClass: "fab fa-html5"
     },{
-        name: "CSS",
-        value: 50
+        name: "CSS3",
+        faClass: "fab fa-css3"
     },{
         name: "Javascript",
-        value: 50
+        faClass: "fab fa-js"
     },{
-        name: "Bootstrap",
-        value: 60
-    },{
-        name: "React",
-        value: 50
-    },{
-        name: "Vuejs",
-        value: 60
+        name: "Node",
+        faClass: "fab fa-node"
     },{
         name: "Python",
-        value: 50
+        faClass: "fab fa-python"
+    },{
+        name: "VueJs",
+        faClass: "fab fa-vuejs"
+    },{
+        name: "Bootstrap",
+        faClass: "fab fa-bootstrap"
+    },{
+        name: "React",
+        faClass: "fab fa-react"
+    },{
+        name: "Npm",
+        faClass: "fab fa-npm"
     },
 ]
+
 // Edit your projects, its name, your skills used to make it, and the url. 
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
@@ -111,45 +117,6 @@ const education = [
     },
     
 ]
-const section34Title = "Experience"
-const experience = [
-    {
-        // Add image in './styles/images.css' in #project1
-        name:'Full Stack Developement Intern',
-        where:'Salasian Life Choices',
-        from:'September 2020',
-        to:'Present'
-    },
-    {
-        // Add image in './styles/images.css' in #project2
-        name:'Caregiver',
-        where:'Creative Wellness',
-        from:'April 2018',
-        to:'May 2018'
-    },
-    {
-        // Add image in './styles/images.css' in #project3
-        name:'Caregiver (Volunteer)',
-        where:'Huis Matina (Old Age Home)',
-        from:'November 2017',
-        to:'December 2017',
-    },
-    {
-        // Add image in './styles/images.css' in #project2
-        name:'General Worker',
-        where:'Rainbow Factory (Capacity Agency)',
-        from:'June 2014',
-        to:'November 2016',
-    },
-    {
-        // Add image in './styles/images.css' in #project3
-        name:'Cashier',
-        where:'Dunns Clearance Shop',
-        from:'December 2012',
-        to:'June 2013',
-    },
-    
-]
 
 // Contact form text, and Jotforms link
 // To get your own jotform link, go to https://www.jotform.com/
@@ -168,4 +135,4 @@ const social = {
     codepen: 'https://codepen.io/Doreen17',
 }
 // Dont change anything here
-export { header, background, about, skillsBar, projects , education, experience , contact, social, section2title, section3Title, section33Title, section34Title, section5Title }
+export { header, background, about, skillsBar, projects , education , contact, social, section2title, section3Title, section33Title, section5Title }

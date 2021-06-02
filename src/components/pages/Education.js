@@ -15,7 +15,7 @@ function Education() {
   return (
     <div
       className="App"
-      style={{ background: "#e96224", fontFamily: "Trebuchet Ms" }}
+      style={{ background: "#8c8481", fontFamily: "Trebuchet Ms" }}
     >
       <h1 className='condiv'> Education </h1>
   
@@ -52,4 +52,3 @@ ReactDOM.render(<Education />, rootElement);
 
 
 export default Education;
-

@@ -19,10 +19,10 @@ const About = () => {
                 
             </div>
             </div>
-            <div className="row" id="Skills"> 
-                <div className="col-12 skills">
+            <div id="Skills"> 
+                <div className="row d-flex justify-content-center skills">
                     {skillsBar.map((x) => 
-                        <Skills label={x.name} per={x.value}/>
+                        <Skills faClass={x.faClass} label={x.name}/>
                     )}
                 </div> 
             </div>

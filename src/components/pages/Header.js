@@ -31,7 +31,11 @@ const Header = () => {
         <div>
             <div className="Header">
                 <h1>{ `I'm ${header.name}` }</h1>
-            <p className="line-1 anim-typewriter">Junior Software Developer ... </p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            <p className="line-1 anim-typewriter">Aspiring Software Developer ... </p>
             <label className="switch">
                 <input id="mode-switch" onClick={toggleDarkMode} type="checkbox"/>
                 <span className="slider round"></span>
